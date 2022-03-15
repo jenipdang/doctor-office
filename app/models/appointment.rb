@@ -10,4 +10,5 @@ class Appointment < ActiveRecord::Base
             self.errors.add(:date, "Date must be in the future") #add errors manually on the object
         end
     end
+    
 end
